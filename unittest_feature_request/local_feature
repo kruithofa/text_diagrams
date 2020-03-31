@@ -1,0 +1,8 @@
+// Made with https://github.com/weidagang/text-diagram !
+object UT LL_A LT
+UT->LL_A: Start
+UT->LL_A: Feature Exchange Proc.
+LL_A->LT: LL_FEATURE_REQ
+LT->LL_A: LL_FEATURE_RSP
+LL_A->UT: Feature Exchange Proc.
+LL_A->UT: Complete
